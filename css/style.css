@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+/* slider */
+
+.arcane{
+  padding: 100px 100px 30px 100px;
+  background-color: rgb(29, 28, 28);
+  border-bottom: solid 7px rgb(214, 184, 128);;
+}
+
+.arcane h1{
+  font-size: 45px;
+  font-weight: bold;
+  color: rgb(194, 171, 108);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.arcane1{
+  padding: 100px 100px 30px 100px;
+  background-color: rgb(29, 28, 28);
+  border-bottom: solid 7px rgb(214, 184, 128);;
+}
+
+.arcane1 h1{
+  font-size: 45px;
+  font-weight: bold;
+  color: rgb(194, 171, 108);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.swiper {
+    width: 100%;
+    
+    background-color: rgb(149, 169, 204);
+    
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 1000px;
+    height:563px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+  .contacto h1{
+    font-size: 45px;
+    color: rgb(194, 171, 108);
+    font-weight: bolder;
+    margin-top: 100px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .video{
+    display: flex;
+    justify-content: center;
+    margin: 100px 200 100px 200px;
+    
+  }
+
+.servicios h1{
+    font-size: 45px;
+    color: rgb(194, 171, 108);
+    background-color:rgb(29, 28, 28) ;
+    font-weight: bolder;
+    margin-top: 100px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .galeria{
+    margin: 5em 18em 5em 18em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+    
+  }
+
+  .item {
+    flex: 0 32%;
+    width: 506px;
+    height:auto;
+    margin-bottom: 2%; /* (100-32*3)/2 */
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    border-top: 15px solid rgb(194, 171, 108);
+  }
+
+  .logo{
+    width: 50;
+    height:50;
+  }
+
+.footer{
+  background-color: rgb(29, 28, 28);
+  margin-top: 70px;
+  padding: 120px 60px 60px 60px;
+  align-items: center;
+  text-align: center;
+  color: aliceblue;
+  border-top: solid 10px rgb(156, 127, 74);
+  font-size: 12px;
+}
+
+body{
+  background-color: rgb(149, 169, 204);;
+}
+
+.footer2{
+  color: white;
+  background-color: rgb(29, 28, 28);
+  border-top: solid 10px rgb(156, 127, 74);
+  align-items: center;
+  text-align: center;
+  margin-top: 70px;
+  padding: 120px 60px 60px 60px;
+}
+
+.footer2 h1{
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.footer2 p{
+  font-size: 14px;
+}
+
+.copy{
+  margin-top: 20px;
+  color: white;
+  font-size: 12px;
+}
+
+.copy a{
+  text-decoration: underline;
+  display: inline;
+  color: white;
+}
+
+.copy li{
+  display: inline;
+}
+
+.info{
+  font-family: 'Roboto', sans-serif;
+font-family: 'Zen Antique Soft', serif;
+font-weight: bold;
+font-size: 25px;
+margin: 100px;
+text-align: center;
+}
+
+.info2{
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Zen Antique Soft', serif;
+  font-weight:bolder ;
+  color: black;
+  margin: 100px;
+  text-align: center;
+  font-size: 70px;
+}
+
+.info2 a{
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+.info2 a:hover{
+  color: rgb(145, 123, 51);
+}
+
+/* INICIO DE MEDIA QUERIES*/
+
+/* ##Dispositivo = Tablets, Ipads (horizontal) 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px)  {
+  .galeria{
+    margin: 1em 3em 1em 3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+}
+
+/* ##Dispositivo = Tablets, Mobiles de 481px a 767px */
+@media (min-width: 414px) and (max-width: 767px) {
+
+}
+
+/* ##Dispositivo = Smartphones de 320px a 479px */
+@media (min-width: 320px) and (max-width: 480px) {
+  .info2{
+    font-size: 25px;
+  }
+
+  .arcane1 h1{
+    font-size: 25px;
+  }
+
+  .galeria{
+      margin: 1em 3em 1em 3em;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+
+  .swiper-slide {
+    width: 300px;
+    height:169px;
+}
+
+.arcane h1{
+  font-size: 30px;
+}
+}
